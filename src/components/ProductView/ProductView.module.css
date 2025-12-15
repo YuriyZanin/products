@@ -1,0 +1,17 @@
+.view {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.viewImage {
+  max-width: 400px;
+  max-height: 400px;
+}
+
+.viewText {
+  max-width: 600px;
+  text-align: justify;
+}

@@ -1,0 +1,14 @@
+#root {
+  max-width: 1248px;
+  margin: 0 auto;
+  text-align: center;
+  background: #fff;
+  min-height: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+html {
+  scrollbar-gutter: stable;
+}

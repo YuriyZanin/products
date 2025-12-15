@@ -1,0 +1,22 @@
+.InputForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.imagePreview {
+  max-width: 400px;
+  max-height: 400px;
+}
+
+.formButtons {
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.errorMessage {
+  color: red;
+}
