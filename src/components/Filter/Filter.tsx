@@ -5,6 +5,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import styles from './Filter.module.css';
 import { Button } from '../Button/Button';
 import type { TFilterOption, TFilterOptions } from '@/types';
+import { optionMap } from '@/constants';
 
 export type FilterProps = {
   options: TFilterOptions;
@@ -27,7 +28,7 @@ export const Filter: FC<FilterProps> = ({ options }) => {
             isActive={activeFilter === option}
             onClick={() => handleFilter(option)}
           >
-            {option}
+            {optionMap[option]}
           </Button>
         ))}
       </div>
